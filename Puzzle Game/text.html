@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
+<script type = "text/javascript" src="complicated.js"></script>
+<link rel="stylesheet" href="mystyle.css">
+
+
+
+
+</head>
+<body>
+    <div id="main">
+        <div class = "box" ><h2>Original Image</h2><div class= "inner" id="b1" > </div><div id="change">CHANGE</div> </div>
+        <div class = "box" ><h2>Pieces</h1> 
+            
+            <div class = "inner" id="b2">  
+            
+        <div id="i1" class="lil"  ><h1>1</h1></div>
+        <div id="i2" class="lil" ><h1>2</h1></div>
+        <div id="i3"  class="lil"  ><h1>3</h1></div>
+        <div id="i4"  class="lil"  ><h1>4</h1></div>
+        <div id="i5" class="lil"  ><h1>5</h1></div>
+        <div id="i6" class="lil"  ><h1>6</h1></div>
+        <div id="i7" class="lil"  ><h1>7</h1></div>
+        <div id="i8" class="lil"  ><h1>8</h1></div>
+        <div id="i9" class="lil"  ><h1>9</h1></div>
+    </div> 
+    <div id="hint">HINT</div>
+
+      
+     </div>
+        <div class = "box" ><h2>Puzzle</h2> <div class = "inner" id="b3"> <table>
+            <tr>
+                <td id="t1"><h1>1</h1></td>
+                <td id="t2"><h1>2</h1></td>
+                <td id="t3"><h1>3</h1></td>
+            </tr>
+
+            <tr>
+                <td id="t4"><h1>4</h1></td>
+                <td id="t5"><h1>5</h1></td>
+                <td id="t6"><h1>6</h1></td>
+            </tr>
+
+            <tr>
+                <td id="t7"><h1>7</h1></td>
+                <td id="t8"><h1>8</h1></td>
+                <td id="t9"><h1>9</h1></td>
+            </tr>
+        </table>
+    </div > 
+       
+    </div>
+
+    </div>
+  
+   
+
+
+  <script>
+      $("#b1").addClass("bg0");
+      $(".lil").addClass("bg0");
+      changeClick();
+      colorset();
+      imagesFunc();  
+      randomPosition();
+      $("h1").hide();
+      lilClick();
+     hintClick();
+  </script>
+
+   
+
+
+
+    
+
+</body>
+</html>
